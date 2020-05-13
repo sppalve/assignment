@@ -1,0 +1,13 @@
+<html>
+    <script>
+    function copy()
+    {
+        var box1 = document.getElementById("box1");
+        var box2 = document.getElementById("box2");
+        box2.value = box1.value;
+    }
+    </script>
+    <center><label>First</label>&Tab;<input type="text" name="box1" id="box1"><br><br>
+    <center><label>Second</label>&Tab;<input type="text" name="box2" id="box2"/><br><br>
+    <center><input type="button" value="copy" onClick="copy();" />
+</html>
